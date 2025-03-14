@@ -1,14 +1,4 @@
 @charset "UTF-8";
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
---*/
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -11013,13 +11003,7 @@ span.cursor {
   .margin-up {
     margin-top: 1.5rem; } }
 
-/* / contact1-responsive */
-/* /contact1 */
-/**
- * Owl Carousel v2.3.4
- * Copyright 2013-2018 David Deutsch
- * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
- */
+
 .owl-carousel,
 .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
@@ -11196,11 +11180,6 @@ span.cursor {
   .owl-carousel .owl-nav.disabled {
     display: none; } }
 
-/**
-  * Owl Carousel v2.3.4
-  * Copyright 2013-2018 David Deutsch
-  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
-  */
 .owl-theme .owl-dots,
 .owl-theme .owl-nav {
   text-align: center;
@@ -11540,6 +11519,28 @@ button::-moz-focus-inner {
   height: 100%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: #000; }
+
+  .owl-two .item {
+    display: flex;
+    align-items: stretch; /* Ensures all items stretch to the same height */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Makes all cards the same height */
+}
+
+.box-wrap {
+    flex-grow: 1; /* Allows content to expand evenly */
+    min-height: 250px; /* Set a uniform minimum height */
+    padding: 20px;
+    text-align: center;
+}
+
+.card h4, .card p {
+    flex-grow: 1; /* Ensures text stretches evenly */
+}
 
 /* Main image in popup */
 img.mfp-img {
