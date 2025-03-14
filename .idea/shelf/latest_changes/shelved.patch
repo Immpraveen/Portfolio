@@ -1,0 +1,156 @@
+Index: about.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n\r\n  <title>About</title>\r\n\r\n  <link href=\"//fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap\" rel=\"stylesheet\">\r\n\r\n  <link rel=\"stylesheet\" href=\"assets/css/style-starter.css\">\r\n</head>\r\n\r\n<body>\r\n\r\n<header id=\"site-header\" class=\"fixed-top\">\r\n  <div class=\"container\">\r\n      <nav class=\"navbar navbar-expand-lg stroke\">\r\n          <a class=\"navbar-brand\" href=\"index.html\">\r\n              <span class=\"fa fa-laptop\"></span> Praveen Kumar\r\n          </a>\r\n          \r\n          <button class=\"navbar-toggler  collapsed bg-gradient\" type=\"button\" data-toggle=\"collapse\"\r\n              data-target=\"#navbarTogglerDemo02\" aria-controls=\"navbarTogglerDemo02\" aria-expanded=\"false\"\r\n              aria-label=\"Toggle navigation\">\r\n              <span class=\"navbar-toggler-icon fa icon-expand fa-bars\"></span>\r\n              <span class=\"navbar-toggler-icon fa icon-close fa-times\"></span>\r\n              </span>\r\n          </button>\r\n\r\n          <div class=\"collapse navbar-collapse\" id=\"navbarTogglerDemo02\">\r\n              <ul class=\"navbar-nav ml-auto\">\r\n                  <li class=\"nav-item @@home__active\">\r\n                      <a class=\"nav-link\" href=\"index.html\">Home <span class=\"sr-only\">(current)</span></a>\r\n                  </li>\r\n                  <li class=\"nav-item active\">\r\n                      <a class=\"nav-link\" href=\"about.html\">About</a>\r\n                  </li>\r\n                  <li class=\"nav-item @@contact__active\">\r\n                      <a class=\"nav-link\" href=\"contact.html\">Contact</a>\r\n                  </li>\r\n              </ul>\r\n          </div>\r\n          \r\n          <div class=\"mobile-position\">\r\n              <nav class=\"navigation\">\r\n                  <div class=\"theme-switch-wrapper\">\r\n                      <label class=\"theme-switch\" for=\"checkbox\">\r\n                          <input type=\"checkbox\" id=\"checkbox\">\r\n                          <div class=\"mode-container\">\r\n                              <i class=\"gg-sun\"></i>\r\n                              <i class=\"gg-moon\"></i>\r\n                          </div>\r\n                      </label>\r\n                  </div>\r\n              </nav>\r\n          </div>\r\n          \r\n      </nav>\r\n  </div>\r\n</header>\r\n\r\n\r\n\r\n<section class=\"w3l-about-breadcrumb text-center\">\r\n    <div class=\"breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4\">\r\n        <div class=\"container py-2\">\r\n            <h2 class=\"title\">About Me</h2>\r\n            <ul class=\"breadcrumbs-custom-path mt-2\">\r\n                <li><a href=\"#url\">Home</a></li>\r\n                <li class=\"active\"><span class=\"fa fa-arrow-right mx-2\" aria-hidden=\"true\"></span> About Me </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section class=\"w3l-aboutblock1\" id=\"about\">\r\n    <div class=\"midd-w3 py-5\">\r\n        <div class=\"container py-lg-5 py-md-3\">\r\n            <div class=\"row\">\r\n                <div class=\"col-lg-4\">\r\n                    <div class=\"position-relative\">\r\n                        <img src=\"assets/images/myphoto1.jpg\" alt=\"\" class=\"radius-image img-fluid\">\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-8 mt-lg-0 mt-5\">\r\n                    <h5 class=\"title-small mb-2\">Hello, I am a Data Analyst and Software Engineer</h5>\r\n                    <h3 class=\"title-big\">\uD83D\uDCBB\uD83E\uDD13\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB</h3>\r\n                    <p class=\"mt-4\">Tech enthusiast looking for an opportunity to upskill and contribute to building new projects using my strong perseverance and dedication to learn and grow professionally.</p>\r\n                    <div class=\"my-info mt-4\">\r\n                        <div class=\"single-info\"><span>Name:</span>\r\n                            <p>Praveen Kumar</p>\r\n                        </div>\r\n                        <div class=\"single-info\"><span>Age:</span>\r\n                            <p>22 Years</p>\r\n                        </div>\r\n                        <div class=\"single-info\"><span>From:</span>\r\n                            <p>Delhi, India</p>\r\n                        </div>\r\n                        <div class=\"single-info\"><span>Email:</span>\r\n                            <p><a href=\"mailto:praveen037k@mail.com\">praveen037k@gmail.com</a></p>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"my-social mt-lg-5 mt-4\">\r\n                        <a href=\"#download\" class=\"btn btn-style btn-primary\">Download CV</a>\r\n                        <ul class=\"social m-0 p-0\">\r\n                            <li><a href=\"https://twitter.com/Immpraveen\"><span class=\"fa fa-twitter\"></span></a></li>\r\n                            <li><a href=\"https://www.linkedin.com/in/immpraveen/\"><span class=\"fa fa-linkedin-square\"></span></a></li>\r\n                            <li><a href=\"https://www.instagram.com/immpraveen/\"><span class=\"fa fa-instagram\"></span></a></li>\r\n                          </ul>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<div class=\"py-5 w3l-resume\">\r\n    <div class=\"container py-lg-5 py-3\">\r\n        <h5 class=\"title-small mb-2\"> Hello</h5>\r\n        <h3 class=\"title-big mb-4\">I can find meaningful insights for your bussiness to make data driven decision.</h3>\r\n        <p>I am a fresher having skills like data cleaning, data processing, data visualisation with knowledge about \r\n          Spreadsheet, Microsoft Excel and SQL (Structured Query Language). I have done my certification in data analytics using\r\n          AWS from coursera platform. I have done my major Project in EDA (Exploratory data analysis) which helped business to \r\n          make data driven decision for their growth.\r\n        </p>\r\n        <div class=\"row features-w3pvt-main mt-5 pt-md-3\" id=\"features\">\r\n            <div class=\"col-lg-4 col-md-6 feature-gird\">\r\n                <div class=\"row features-hny-inner-gd\">\r\n                    <div class=\"col-md-2 col-2 featured_grid_left\">\r\n                        <div class=\"icon_left_grid\">\r\n                            <span class=\"fa fa-laptop\" aria-hidden=\"true\"></span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-md-10 col-10 featured_grid_right_info\">\r\n                        <h4><a class=\"link-hny\" href=\"#url\">Data Cleaning </a></h4>\r\n                        <p>It is most difficult and time consuming process in data analysis.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 feature-gird mt-md-0 mt-4\">\r\n                <div class=\"row features-hny-inner-gd\">\r\n                    <div class=\"col-md-2 col-2 featured_grid_left\">\r\n                        <div class=\"icon_left_grid\">\r\n                            <span class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-md-10 col-10 featured_grid_right_info\">\r\n                        <h4><a class=\"link-hny\" href=\"#url\">Data Processing </a></h4>\r\n                        <p>Processing data into a structured schema to retrieve data as and when required.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4 col-md-6 feature-gird mt-lg-0 mt-md-5 mt-4\">\r\n                <div class=\"row features-hny-inner-gd\">\r\n                    <div class=\"col-md-2 col-2 featured_grid_left\">\r\n                        <div class=\"icon_left_grid\">\r\n                            <span class=\"fa fa-desktop\" aria-hidden=\"true\"></span>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-md-10 col-10 featured_grid_right_info\">\r\n                        <h4><a class=\"link-hny\" href=\"#url\">Data Analysis</a></h4>\r\n                        <p>Most important step to draw relationship between various components and their impact on result.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n\r\n<section class=\"w3l-content-6 py-5\">\r\n    <div class=\"content-6-mian py-lg-5 py-md-4\">\r\n        <div class=\"container\">\r\n            <div class=\"content-info-in row\">\r\n                <div class=\"content-gd col-lg-5\">\r\n                    <h3 class=\"title-big mb-4\">Motivated by the Desire to achieve Success</h3>\r\n                    <p>Data is the fuel which drives the business models. All the decisions are mainly taken based on the \r\n                      data that they produce. If a product is having higher sales then manufacturing it will increase the \r\n                      annual sales of the organisation. Though keeping various aspect into the recognisation to explore the\r\n                      hidden findings is called Data Analytics.\r\n                    </p>\r\n                </div>\r\n                <div class=\"content-gd col-lg-6 offset-lg-1\">\r\n                    <div class=\"progress-info\">\r\n                        <h6 class=\"progress-tittle\">SQL</h6>\r\n                        <div class=\"progress\">\r\n                            <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" style=\"width: 70%\"\r\n                                aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\">\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"progress-info\">\r\n                        <h6 class=\"progress-tittle\">C++ Programming\r\n                        </h6>\r\n                        <div class=\"progress\">\r\n                            <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" style=\"width: 80%\"\r\n                                aria-valuenow=\"95\" aria-valuemin=\"0\" aria-valuemax=\"100\">\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"progress-info\">\r\n                        <h6 class=\"progress-tittle\">C Programming</h6>\r\n                        <div class=\"progress\">\r\n                            <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" style=\"width: 55%\"\r\n                                aria-valuenow=\"55\" aria-valuemin=\"0\" aria-valuemax=\"100\">\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"progress-info mb-0\">\r\n                        <h6 class=\"progress-tittle\">Spreadsheet</h6>\r\n                        <div class=\"progress\">\r\n                            <div class=\"progress-bar progress-bar-striped\" role=\"progressbar\" style=\"width: 60%\"\r\n                                aria-valuenow=\"80\" aria-valuemin=\"0\" aria-valuemax=\"100\">\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n<section class=\"w3l-services\">\r\n    <div class=\"w3l-achievements py-5\" id=\"services\">\r\n        <div class=\"container py-lg-5\">\r\n            <h5 class=\"title-small text-center\">My achievements</h5>\r\n            <h3 class=\"title-big text-center mb-sm-5 mb-4\">Personal Awards</h3>\r\n            <div class=\"row\">\r\n                <div class=\"col-lg-6 item\">\r\n                    <div class=\"card\">\r\n                        <div class=\"box-wrap\">\r\n                            <h4>Treasure Hunt - 1st Position</h4>\r\n                            <p>During college fest Udbhav-22 cultural fiesta our team managed to secure first position by\r\n                              outperforming other teams. </p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"col-lg-6 item\">\r\n                    <div class=\"card\">\r\n                        <div class=\"box-wrap\">\r\n                            <h4>Regional Level Cricket Tournament (KVS Delhi Region) - 2nd Position</h4>\r\n                            <p>Our team won the match by 4 wicket. I played a crucial role in winning match as all rounder.</p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"col-lg-6 item\">\r\n                    <div class=\"card\">\r\n                        <div class=\"box-wrap mb-lg-0\">\r\n                            <h4>Various Awards</h4>\r\n                            <p>During secondary and higher secondary schooling, I had secured various positions in differnt competitions like \r\n                              singing, debate competition, poster making and project presentation during social science exhibition in KV Vigyan Vihar.</p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <div class=\"col-lg-6 item\">\r\n                    <div class=\"card\">\r\n                        <div class=\"box-wrap mb-0\">\r\n                            <h4>B.S.&G. Association, Delhi Region - Tristiya Soupan</h4>\r\n                            <p>The Bharat Scouts & Guides is the national scouting and guiding association of India. \r\n                              The national headquarters of BS&G is recognized by the government of India </p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n</section>\r\n\r\n\r\n<section class=\"w3l-footer py-sm-5 py-4\">\r\n  <div class=\"container\">\r\n    <div class=\"footer-content\">\r\n      <div class=\"row\">\r\n        <div class=\"col-lg-8 footer-left\">\r\n          <p class=\"m-0\">Copyright © 2022</p>\r\n        </div>\r\n        <div class=\"col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3\">\r\n          <ul class=\"social m-0 p-0\">\r\n            <li><a href=\"https://twitter.com/Immpraveen\"><span class=\"fa fa-twitter\"></span></a></li>\r\n            <li><a href=\"https://www.linkedin.com/in/immpraveen/\"><span class=\"fa fa-linkedin-square\"></span></a></li>\r\n            <li><a href=\"https://www.instagram.com/immpraveen/\"><span class=\"fa fa-instagram\"></span></a></li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n\r\n  <!-- move top -->\r\n  <button onclick=\"topFunction()\" id=\"movetop\" title=\"Go to top\">\r\n    <span class=\"fa fa-angle-up\"></span>\r\n  </button>\r\n  <script>\r\n    // When the user scrolls down 20px from the top of the document, show the button\r\n    window.onscroll = function () {\r\n      scrollFunction()\r\n    };\r\n\r\n    function scrollFunction() {\r\n      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {\r\n        document.getElementById(\"movetop\").style.display = \"block\";\r\n      } else {\r\n        document.getElementById(\"movetop\").style.display = \"none\";\r\n      }\r\n    }\r\n\r\n    // When the user clicks on the button, scroll to the top of the document\r\n    function topFunction() {\r\n      document.body.scrollTop = 0;\r\n      document.documentElement.scrollTop = 0;\r\n    }\r\n  </script>\r\n  <!-- /move top -->\r\n</section>\r\n<!-- //Footer -->\r\n\r\n<!-- all js scripts and files here -->\r\n\r\n<script src=\"assets/js/theme-change.js\"></script><!-- theme switch js (light and dark)-->\r\n\r\n<script src=\"assets/js/jquery-3.3.1.min.js\"></script><!-- default jQuery -->\r\n\r\n<!-- /typig-text-->\r\n<script>\r\n  const typedTextSpan = document.querySelector(\".typed-text\");\r\n  const cursorSpan = document.querySelector(\".cursor\");\r\n\r\n  const textArray = [\"UI/UX Designer\", \"Freelancer\", \"Web developer\"];\r\n  const typingDelay = 200;\r\n  const erasingDelay = 10;\r\n  const newTextDelay = 100; // Delay between current and next text\r\n  let textArrayIndex = 0;\r\n  let charIndex = 0;\r\n\r\n  function type() {\r\n    if (charIndex < textArray[textArrayIndex].length) {\r\n      if (!cursorSpan.classList.contains(\"typing\")) cursorSpan.classList.add(\"typing\");\r\n      typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);\r\n      charIndex++;\r\n      setTimeout(type, typingDelay);\r\n    } else {\r\n      cursorSpan.classList.remove(\"typing\");\r\n      setTimeout(erase, newTextDelay);\r\n    }\r\n  }\r\n\r\n  function erase() {\r\n    if (charIndex > 0) {\r\n      // add class 'typing' if there's none\r\n      if (!cursorSpan.classList.contains(\"typing\")) {\r\n        cursorSpan.classList.add(\"typing\");\r\n      }\r\n      typedTextSpan.textContent = textArray[textArrayIndex].substring(0, 0);\r\n      charIndex--;\r\n      setTimeout(erase, erasingDelay);\r\n    } else {\r\n      cursorSpan.classList.remove(\"typing\");\r\n      textArrayIndex++;\r\n      if (textArrayIndex >= textArray.length) textArrayIndex = 0;\r\n      setTimeout(type, typingDelay);\r\n    }\r\n  }\r\n\r\n  document.addEventListener(\"DOMContentLoaded\", function () { // On DOM Load initiate the effect\r\n    if (textArray.length) setTimeout(type, newTextDelay + 250);\r\n  });\r\n</script>\r\n<!-- //typig-text-->\r\n\r\n<!-- services owlcarousel -->\r\n<script src=\"assets/js/owl.carousel.js\"></script>\r\n\r\n<!-- script for services -->\r\n<script>\r\n  $(document).ready(function () {\r\n    $('.owl-two').owlCarousel({\r\n      loop: true,\r\n      margin: 30,\r\n      nav: false,\r\n      responsiveClass: true,\r\n      autoplay: false,\r\n      autoplayTimeout: 5000,\r\n      autoplaySpeed: 1000,\r\n      autoplayHoverPause: false,\r\n      responsive: {\r\n        0: {\r\n          items: 1,\r\n          nav: false\r\n        },\r\n        480: {\r\n          items: 1,\r\n          nav: false\r\n        },\r\n        700: {\r\n          items: 1,\r\n          nav: false\r\n        },\r\n        1090: {\r\n          items: 3,\r\n          nav: false\r\n        }\r\n      }\r\n    })\r\n  })\r\n</script>\r\n<!-- //script for services -->\r\n\r\n<!-- disable body scroll which navbar is in active -->\r\n<script>\r\n  $(function () {\r\n    $('.navbar-toggler').click(function () {\r\n      $('body').toggleClass('noscroll');\r\n    })\r\n  });\r\n</script>\r\n<!-- disable body scroll which navbar is in active -->\r\n\r\n<!--/MENU-JS-->\r\n<script>\r\n  $(window).on(\"scroll\", function () {\r\n    var scroll = $(window).scrollTop();\r\n\r\n    if (scroll >= 80) {\r\n      $(\"#site-header\").addClass(\"nav-fixed\");\r\n    } else {\r\n      $(\"#site-header\").removeClass(\"nav-fixed\");\r\n    }\r\n  });\r\n\r\n  //Main navigation Active Class Add Remove\r\n  $(\".navbar-toggler\").on(\"click\", function () {\r\n    $(\"header\").toggleClass(\"active\");\r\n  });\r\n  $(document).on(\"ready\", function () {\r\n    if ($(window).width() > 991) {\r\n      $(\"header\").removeClass(\"active\");\r\n    }\r\n    $(window).on(\"resize\", function () {\r\n      if ($(window).width() > 991) {\r\n        $(\"header\").removeClass(\"active\");\r\n      }\r\n    });\r\n  });\r\n</script>\r\n<!--//MENU-JS-->\r\n\r\n<!-- bootstrap js -->\r\n<script src=\"assets/js/bootstrap.min.js\"></script>\r\n\r\n</body>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/about.html b/about.html
+--- a/about.html	(revision 2263b2a3343d72ea1cc23fcd3feb714fc588ef6f)
++++ b/about.html	(date 1740592204701)
+@@ -86,25 +86,25 @@
+                     </div>
+                 </div>
+                 <div class="col-lg-8 mt-lg-0 mt-5">
+-                    <h5 class="title-small mb-2">Hello, I am a Data Analyst and Software Engineer</h5>
++                    <h5 class="title-small mb-2">Hello, I am a Software Developer</h5>
+                     <h3 class="title-big">💻🤓🧑🏻‍💻</h3>
+-                    <p class="mt-4">Tech enthusiast looking for an opportunity to upskill and contribute to building new projects using my strong perseverance and dedication to learn and grow professionally.</p>
++                    <p class="mt-4">Passionate about building impactful solutions, I thrive on turning ideas into reality through clean, efficient code. With experience in developing and managing projects in dynamic environments, I love collaborating to solve complex challenges and drive innovation. Let’s connect and create something amazing together!</p>
+                     <div class="my-info mt-4">
+                         <div class="single-info"><span>Name:</span>
+                             <p>Praveen Kumar</p>
+                         </div>
+-                        <div class="single-info"><span>Age:</span>
+-                            <p>22 Years</p>
++                        <div class="single-info"><span>Preferred Location:</span>
++                            <p>Delhi NCR, India</p>
+                         </div>
+-                        <div class="single-info"><span>From:</span>
+-                            <p>Delhi, India</p>
+-                        </div>
++                        <div class="single-info"><span>Current Location:</span>
++                          <p>Bengaluru, India</p>
++                      </div>
+                         <div class="single-info"><span>Email:</span>
+-                            <p><a href="mailto:praveen037k@mail.com">praveen037k@gmail.com</a></p>
++                            <p><a href="mailto:praveen037k@mail.com">Drop a mail here</a></p>
+                         </div>
+                     </div>
+                     <div class="my-social mt-lg-5 mt-4">
+-                        <a href="#download" class="btn btn-style btn-primary">Download CV</a>
++                        <a href="https://drive.google.com/file/d/1r3kWTqGjPjHZD6E0Vis7NaBnvlMahtex/view?usp=drive_link" class="btn btn-style btn-primary">Download CV</a>
+                         <ul class="social m-0 p-0">
+                             <li><a href="https://twitter.com/Immpraveen"><span class="fa fa-twitter"></span></a></li>
+                             <li><a href="https://www.linkedin.com/in/immpraveen/"><span class="fa fa-linkedin-square"></span></a></li>
+@@ -120,12 +120,9 @@
+ 
+ <div class="py-5 w3l-resume">
+     <div class="container py-lg-5 py-3">
+-        <h5 class="title-small mb-2"> Hello</h5>
+-        <h3 class="title-big mb-4">I can find meaningful insights for your bussiness to make data driven decision.</h3>
+-        <p>I am a fresher having skills like data cleaning, data processing, data visualisation with knowledge about 
+-          Spreadsheet, Microsoft Excel and SQL (Structured Query Language). I have done my certification in data analytics using
+-          AWS from coursera platform. I have done my major Project in EDA (Exploratory data analysis) which helped business to 
+-          make data driven decision for their growth.
++        <h5 class="title-small mb-2"> Let me walk you through!</h5>
++        <h3 class="title-big mb-4">From vision to reality—turning ideas into action, plans into execution, and code into impact.</h3>
++        <p>I specialize in analyzing and understanding requirements, crafting effective implementation plans, and structuring development workflows to turn ideas into reality. From concept to execution, I ensure seamless and scalable solutions that drive impact. Let’s explore how I can help you achieve your goals!</p>
+         </p>
+         <div class="row features-w3pvt-main mt-5 pt-md-3" id="features">
+             <div class="col-lg-4 col-md-6 feature-gird">
+@@ -136,8 +133,8 @@
+                         </div>
+                     </div>
+                     <div class="col-md-10 col-10 featured_grid_right_info">
+-                        <h4><a class="link-hny" href="#url">Data Cleaning </a></h4>
+-                        <p>It is most difficult and time consuming process in data analysis.</p>
++                        <h4><a class="link-hny" href="#url">Strategize & Plan</a></h4>
++                        <p>Analyze requirements, define objectives, and craft a clear implementation roadmap.</p>
+                     </div>
+                 </div>
+             </div>
+@@ -149,8 +146,8 @@
+                         </div>
+                     </div>
+                     <div class="col-md-10 col-10 featured_grid_right_info">
+-                        <h4><a class="link-hny" href="#url">Data Processing </a></h4>
+-                        <p>Processing data into a structured schema to retrieve data as and when required.</p>
++                        <h4><a class="link-hny" href="#url">Develop & Build </a></h4>
++                        <p>Structure the development workflow, write clean and efficient code, and integrate seamlessly.</p>
+                     </div>
+                 </div>
+             </div>
+@@ -162,8 +159,8 @@
+                         </div>
+                     </div>
+                     <div class="col-md-10 col-10 featured_grid_right_info">
+-                        <h4><a class="link-hny" href="#url">Data Analysis</a></h4>
+-                        <p>Most important step to draw relationship between various components and their impact on result.</p>
++                        <h4><a class="link-hny" href="#url">Deliver & Enhance</a></h4>
++                        <p>Test, deploy, and refine solutions to ensure scalability, performance, and continuous improvement.</p>
+                     </div>
+                 </div>
+             </div>
+@@ -178,25 +175,29 @@
+     <div class="content-6-mian py-lg-5 py-md-4">
+         <div class="container">
+             <div class="content-info-in row">
+-                <div class="content-gd col-lg-5">
+-                    <h3 class="title-big mb-4">Motivated by the Desire to achieve Success</h3>
+-                    <p>Data is the fuel which drives the business models. All the decisions are mainly taken based on the 
+-                      data that they produce. If a product is having higher sales then manufacturing it will increase the 
+-                      annual sales of the organisation. Though keeping various aspect into the recognisation to explore the
+-                      hidden findings is called Data Analytics.
+-                    </p>
++                <div class="content-gd col-lg-5"> 
++                    <h3 class="title-big mb-4">Motivated by the desire to solve problem</h3>
++                    <p>How I Bring Ideas to Life with Technology - </p>
++                    <ul style="list-style-type:circle;">
++                      <li><b>Understanding & Planning</b> – Analyze requirements and define a structured approach to development.</li>
++                      <li><b>Building the Foundation</b> – Develop RESTful APIs using Java Spring Boot to establish a robust backend.</li>
++                      <li><b>Data Management</b> – Integrate MySQL for structured data storage, leveraging Hibernate ORM and Spring JPA for seamless database interactions.</li>
++                      <li><b>Optimizing & Securing</b>Optimizing & Securing – Enhance API performance, ensure scalability, and integrate API Gateway for secure and efficient API management.</li>
++                      <li><b>Testing & Refining</b> – Implement rigorous testing, iterate on feedback, and optimize the solution for reliability and efficiency.</li>
++                      <li><b>Deploying & Scaling</b> – Deploy the solution using Docker and manage versions with Git, ensuring smooth delivery and future scalability.</li>
++                    </ul>
+                 </div>
+                 <div class="content-gd col-lg-6 offset-lg-1">
+                     <div class="progress-info">
+-                        <h6 class="progress-tittle">SQL</h6>
++                        <h6 class="progress-tittle">Java</h6>
+                         <div class="progress">
+-                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%"
++                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%"
+                                 aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="progress-info">
+-                        <h6 class="progress-tittle">C++ Programming
++                        <h6 class="progress-tittle">Spring Boot
+                         </h6>
+                         <div class="progress">
+                             <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%"
+@@ -205,17 +206,17 @@
+                         </div>
+                     </div>
+                     <div class="progress-info">
+-                        <h6 class="progress-tittle">C Programming</h6>
++                        <h6 class="progress-tittle">REST APIs</h6>
+                         <div class="progress">
+-                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 55%"
++                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%"
+                                 aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="progress-info mb-0">
+-                        <h6 class="progress-tittle">Spreadsheet</h6>
++                        <h6 class="progress-tittle">Git</h6>
+                         <div class="progress">
+-                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%"
++                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%"
+                                 aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                             </div>
+                         </div>
