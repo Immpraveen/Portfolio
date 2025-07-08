@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d3660e8-3b78-4f93-8846-2721bfb92525" name="Changes" comment="updated location,cv path,summary, experience and expertise" />
+    <list default="true" id="2d3660e8-3b78-4f93-8846-2721bfb92525" name="Changes" comment="updated location,cv path,summary, experience and expertise">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,9 +45,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "updated__version",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kumar/Desktop/Parking-Management-System",
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Portfolio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Portfolio" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
